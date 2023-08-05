@@ -1,8 +1,18 @@
-package packg;
+package code_problems;
+
+// Output
+
+/*
+% % % % % $ 
+% % % % $ $ 
+% % % $ $ $ 
+% % $ $ $ $ 
+% $ $ $ $ $
+*/
 
 public class Main {
 
-	public static void print_shape(int rows, char a, char b) {
+	public static void printShape(int rows, char a, char b) {
 	    for (int i = 0; i < rows; ++i) {
 	        
 	    	for (int j = rows; j > i; --j) {
@@ -18,6 +28,6 @@ public class Main {
 	}
 	
 	public static void main(String[] args) {
-		print_shape(5, '%', '$');
+		printShape(5, '%', '$');
 	}
 }

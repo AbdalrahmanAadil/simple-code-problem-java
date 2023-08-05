@@ -1,9 +1,24 @@
-package packg;
+package code_problems;
+
+// Output
+
+/*
+
+# # # # $ $ $ $ 
+# # # # $ $ $ $ 
+# # # # $ $ $ $ 
+# # # # $ $ $ $ 
+$ $ $ $ # # # # 
+$ $ $ $ # # # # 
+$ $ $ $ # # # # 
+$ $ $ $ # # # #
+
+*/
 
 public class Main {
 
 
-	public static void print_shape(int rows, char a, char b)
+	public static void printShape(int rows, char a, char b)
 	{
 	    if (!(rows % 4 == 0)) {
 	    	System.out.println("The number of rows should be divisible by 4.");
@@ -35,6 +50,6 @@ public class Main {
 	}
 	
 	public static void main(String[] args) {
-		print_shape(7, '#', '$');
+		printShape(7, '#', '$');
 	}
 }

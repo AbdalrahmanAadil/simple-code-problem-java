@@ -1,9 +1,21 @@
-package packg;
+package code_problems;
+
+// Output
+
+/*
+# # # # # # # 
+# $ $ $ $ $ #
+# $ $ $ $ $ #
+# $ $ $ $ $ #
+# $ $ $ $ $ #
+# $ $ $ $ $ #
+# # # # # # #
+*/
 
 public class Main {
 
 
-	public static void print_shape(int rows, char frame, char fill)
+	public static void printShape(int rows, char frame, char fill)
 	{
 	    for(int i = 0; i < rows + 2; ++i) {
 	        System.out.printf("%c ", frame);
@@ -23,12 +35,12 @@ public class Main {
 	        System.out.println();
 	    }
 
-	    for(int i = 0; i < rows + 2; ++i)
+	    for(int i = 0; i < rows + 2; ++i) {
 	    	System.out.printf("%c ", frame);
-
+	    }
 	}
 	
 	public static void main(String[] args) {
-		print_shape(5, '#', '$');
+		printShape(5, '#', '$');
 	}
 }
