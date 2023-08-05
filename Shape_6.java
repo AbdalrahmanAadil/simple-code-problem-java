@@ -1,5 +1,19 @@
 package packg;
 
+// Output
+
+/*
++ + + + + + + + +
++ % % % % % % % +
++ % / / / / / % +
++ % / # # # / % +
++ % / # + # / % +
++ % / # # # / % +
++ % / / / / / % +
++ % % % % % % % +
++ + + + + + + + + 
+*/
+
 public class Main {
 
 	public static void print_shape(int rows, char[] chars, char defaultFill) {
@@ -26,6 +40,6 @@ public class Main {
 	}
 	
 	public static void main(String[] args) {
-		print_shape(10, new char[]{'+', '%', '/', '#'}, '/');
+		print_shape(9, new char[]{'+', '%', '/', '#'}, '+');
 	}
 }
